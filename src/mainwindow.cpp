@@ -29,7 +29,7 @@ void MainWindow::on_login_button_clicked()
     db.setUserName(login);
     db.setPassword(password);
     bool checker = db.open();
-    if (checker){
+    if (checker && (login != "" || password != "")){
         mainMenu = new main_menu();
         mainMenu -> show();
         this->close();
