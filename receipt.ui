@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>receipt</class>
+ <widget class="QDialog" name="receipt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>236</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="shop_name">
+     <property name="placeholderText">
+      <string>Название магазина</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="address">
+     <property name="placeholderText">
+      <string>Адрес</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="inn">
+     <property name="placeholderText">
+      <string>ИНН</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="id_cashbox">
+     <item>
+      <property name="text">
+       <string>Связь с кассой</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="quantity">
+     <property name="placeholderText">
+      <string>Количество</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="id_cashier">
+     <item>
+      <property name="text">
+       <string>Связь с кассиром</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="id_product">
+     <item>
+      <property name="text">
+       <string>Связь с продуктами</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Save">
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
